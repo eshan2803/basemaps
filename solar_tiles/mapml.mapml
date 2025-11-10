@@ -13,9 +13,9 @@
     </head>
     <body>
         <extent units="OSMTILE">
-            <input name="z" type="zoom" value="10" min="0" max="10" />
-            <input name="x" type="location" axis="column" units="tilematrix" min="0" max="324" />
-            <input name="y" type="location" axis="row" units="tilematrix" min="291" max="459" />
+            <input name="z" type="zoom" value="12" min="0" max="12" />
+            <input name="x" type="location" axis="column" units="tilematrix" min="0" max="1297" />
+            <input name="y" type="location" axis="row" units="tilematrix" min="1166" max="1839" />
             <link tref="./{z}/{x}/{y}.png" rel="tile" />
             <!--<link tref="http://localhost:8080/myservice/wmts?layer=MYLAYER&amp;style=&amp;tilematrixset=OSMTILE&amp;service=WMTS&amp;request=GetTile&amp;version=1.0.0&amp;tilematrix={z}&amp;TileCol={x}&amp;TileRow={y}&amp;format=image/png" rel="tile" />-->
             <!--
