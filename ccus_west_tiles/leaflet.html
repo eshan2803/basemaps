@@ -3,7 +3,7 @@
           <head>
             <meta charset="utf-8">
             <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
-            <title>ccus_west_final.tif</title>
+            <title>ccus_west_colored.tif</title>
 
             <!-- Leaflet -->
             <link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.5/dist/leaflet.css" />
@@ -54,7 +54,7 @@
 
         // Map
         var map = L.map('map', {
-            center: [37.250067247973455, -119.4991116475683],
+            center: [37.25022717265344, -119.49986596890562],
             zoom: 12,
             minZoom: 0,
             maxZoom: 12,
@@ -72,7 +72,7 @@
             return this._div;
         };
         title.update = function(props) {
-            this._div.innerHTML = "ccus_west_final.tif";
+            this._div.innerHTML = "ccus_west_colored.tif";
         };
         title.addTo(map);
 
@@ -94,7 +94,7 @@
         L.control.layers(basemaps, overlaymaps, {collapsed: false}).addTo(map);
 
         // Fit to overlay bounds (SW and NE points with (lat, lon))
-        map.fitBounds([[32.00013449594691, -113.99822329513657], [42.5, -125.00000000000001]]);
+        map.fitBounds([[32.00045434530688, -113.99973193781123], [42.5, -125.00000000000001]]);
 
         </script>
 

@@ -1,6 +1,6 @@
 <mapml>
     <head>
-        <title>ccus_west_final.tif</title>
+        <title>ccus_west_colored.tif</title>
         <base href="./" />
         <meta charset="utf-8" />
         <meta content="text/mapml;projection=OSMTILE" http-equiv="Content-Type" />
